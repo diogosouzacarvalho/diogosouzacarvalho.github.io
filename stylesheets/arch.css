@@ -1,0 +1,66 @@
+html, body {
+    background-color: rgb(255, 255, 255);
+    background-image: 
+    repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255,255,255,.1) 0, rgba(255,255,255,.1) 20px),
+    repeating-linear-gradient(60deg, transparent, transparent 2px, rgba(255,255,255,.1) 0, rgba(255,255,255,.1) 20px),
+    repeating-linear-gradient(-60deg, transparent, transparent 2px, rgba(200,200,100,.1) 0, rgba(200,200,200,.1) 20px);
+}
+
+hr {
+    margin-top: -0.5rem;
+    margin-bottom: 30px;
+    height: 2px;
+    color: rgba(12, 21, 46, 0.5);
+    background-color: rgba(12, 21, 46, 0.5);
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+.contentTitle {
+    font-size: 2.5em;
+    color: black;
+}
+
+.contentText {
+    margin-bottom: 50px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3em;
+}
+
+.card {
+    box-shadow: 0 0 3px #000000f5;
+}
+
+.modalCard {
+    color: inherit;
+}
+
+.brand.bigger a {
+    font-size: 2.5em;
+}
+
+a.unused {
+    color: rgb(185, 185, 185);
+}
+
+.contentTitle:hover {
+    text-decoration: none;
+}
+
+.modalCard:hover {
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 3px #000000f5, 0 0 30px #000000f5;
+}
