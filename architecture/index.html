@@ -14,8 +14,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/arch.css">
-    <!-- scripts -->
-    
+    <!-- scripts -->  
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous">
@@ -29,12 +28,10 @@
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
         crossorigin="anonymous">
-    </script>
-    
+    </script>  
 </head>
 <body class="d-flex flex-column h-100">
-
-    
+    <!-- HEADER MAIN LINKS -->
     <div class="container">
         <div class="row">
             <div class="col justify-content-start">
@@ -54,14 +51,14 @@
             </div>
         </div>    
     </div>
-
+    <!-- ACCORDION FOR ITEM SELECTION -->
     <div class="container content flex-shrink-0">
         <div class="accordion" id="siteContent">
+            <!-- ABOUT ME -->
             <div id="aboutMe">
                 <a class="contentTitle" id="aboutMeTitle" href="#aboutMeText" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="aboutMeText">
                     About me<hr>
                 </a>
-                
                 <div id="aboutMeText" class="collapse contentText" aria-labelledby="aboutMeTitle" data-parent="#siteContent">
                     <div>
                         <p>Hello, my name is Diogo and I'm an architect. Welcome to my portfolio site. 
@@ -82,15 +79,13 @@
                     </div>
                 </div>
             </div>
-
+            <!-- PROJECTS -->
             <div id="projects">
                 <a class="contentTitle" href="#projectsText" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="projectsText">
                     Projects<hr>
                 </a>
-                
                 <div id="projectsText" class="collapse contentText" aria-labelledby="projectsTitle" data-parent="#siteContent">
                     <div class="row">
-
                         <!-- Project 01 -->
                         <div class="col-lg-4 col-md-6">
                             <a class="modalCard" role="button" data-toggle="modal" href="#modalConcurso">
@@ -108,11 +103,9 @@
                                 </div>
                             </a>
                         </div>
-
                         <!-- Project 02 -->
-                    
                         <div class="col-lg-4 col-md-6">
-                            <a class="modalCard li-modal" role="button" href="projects/aguasClaras.html">
+                            <a class="modalCard button-modal" role="button" href="projects/salpConcurso.html">
                                 <div class="card border-light mb-3">
                                     <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
                                     <div class="card-body">
@@ -127,7 +120,6 @@
                                 </div>
                             </a>
                         </div>
-
                         <!-- Project 03 -->
                         <div class="col-lg-4 col-md-6">
                             <div class="card border-light mb-3">
@@ -142,8 +134,7 @@
                                 <small class="text-muted">Março 2017</small>
                                 </div>
                             </div> 
-                        </div>
-                        
+                        </div> 
                         <!-- Project 04 -->
                         <div class="col-lg-4 col-md-6">
                             <div class="card border-light mb-3">
@@ -159,7 +150,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Project 05 -->
                         <div class="col-lg-4 col-md-6">
                             <div class="card border-light mb-3">
@@ -175,7 +165,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Project 06 -->
                         <div class="col-lg-4 col-md-6">
                             <div class="card border-light mb-3">
@@ -191,17 +180,14 @@
                                 </div>
                             </div> 
                         </div>                       
-                    </div>
-
-                    
+                    </div>  
                 </div>
             </div>
-
+            <!-- CONTACT -->
             <div id="contact">
                 <a class="contentTitle" href="#contactText" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="contactText">
                     Contact<hr>
                 </a>
-                
                 <div id="contactText" class="collapse contentText" aria-labelledby="contactTitle" data-parent="#siteContent">
                     <div>
                         <p>Want to get in touch? Send me an email, or a message through LinkedIn. There you can also find my CV and other informations.</p>
@@ -215,16 +201,12 @@
             </div> 
         </div>
     </div>
-
-
-    
+    <!-- FOOTER -->
     <footer class="footer mt-auto py-3">
         <div class="container">
             <p class="text-center">&copy;2019 Diogo Carvalho</p>
         </div>
     </footer>
-    
-
     <!-- Project 01 Modal -->
     <div class="modal fade" id="modalConcurso" tabindex="-1" role="dialog" aria-labelledby="modalConcursoLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
@@ -254,16 +236,15 @@
             </div>
         </div>
     </div>
-
     <!-- Project 02 Modal -->
-    <div class="modal fade" id="theModal">
+    <div class="modal fade" id="salpConcursoModal">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 
             </div>
         </div>
     </div>
-
+    <!-- SCRIPTS -->
     <script type="text/javascript" src="../scripts/main.js"></script>
 </body>
 </html>

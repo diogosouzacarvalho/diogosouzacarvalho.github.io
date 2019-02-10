@@ -1,4 +1,4 @@
-$('.li-modal').on('click', function(e){
+$('.button-modal').on('click', function(e){
     e.preventDefault();
-    $('#theModal').modal('show').find('.modal-content').load($(this).attr('href'));
+    $('#salpConcursoModal').modal('show').find('.modal-content').load($(this).attr('href'));
   });
