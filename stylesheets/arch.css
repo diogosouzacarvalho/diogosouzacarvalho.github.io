@@ -26,12 +26,12 @@ ul {
     padding-bottom: 60px;
 }
 
-.contentTitle {
+.content-title {
     font-size: 2.5em;
     color: black;
 }
 
-.contentText {
+.content-text {
     margin-bottom: 50px;
     font-family: 'EB Garamond', serif;
     font-size: 1.3em;
