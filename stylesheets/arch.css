@@ -45,6 +45,31 @@ ul {
     color: inherit;
 }
 
+.card-body {
+    margin-bottom: 30px;
+}
+
+.main-img {
+    margin: 10px auto;
+}
+
+.thumbs {
+    object-fit: cover;
+    height: 250px;
+}
+
+.banner {
+    object-fit: cover;
+    height: 150px;
+    width: 1140px;
+    margin-bottom: 10px;
+}
+
+.separator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .brand.bigger a {
     font-size: 2.5em;
 }
