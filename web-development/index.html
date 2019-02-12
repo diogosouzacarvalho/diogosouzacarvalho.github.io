@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Diogo Carvalho | Web Development</title>
+    <title>Diogo Carvalho | Architecture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
     <link 
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -13,9 +14,23 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/arch.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/web.css">
+    <!-- scripts -->  
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+        crossorigin="anonymous">
+    </script>  
 </head>
 <body class="d-flex flex-column h-100">
+    <!-- HEADER MAIN LINKS -->
     <div class="container">
         <div class="row">
             <div class="col justify-content-start">
@@ -25,204 +40,27 @@
             </div>
             <div class="col justify-content-center">
                 <div class="brand text-center">
-                    <a class="unused" href="../architecture/index.html">ARCHITECTURE</a>
+                    <a class="unused" href="./index.html"><strong>ARCHITECTURE</strong></a>
                 </div>
             </div>
             <div class="col justify-content-end">
                 <div class="brand bigger text-right">
-                    <a href="./index.html"><strong>WEB DEVELOPMENT</strong></a>
+                    <a href="../web-development/index.html">WEB DEVELOPMENT</a>
                 </div>
             </div>
         </div>    
     </div>
-
-    <div class="container content flex-shrink-0">
-        <div class="accordion" id="siteContent">
-            <div id="aboutMe">
-                <a class="contentTitle" id="aboutMeTitle" href="#aboutMeText" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="aboutMeText">
-                    About me<hr>
-                </a>
-                
-                <div id="aboutMeText" class="collapse contentText" aria-labelledby="aboutMeTitle" data-parent="#siteContent">
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-            </div>
-
-            <div id="projects">
-                <a class="contentTitle" href="#projectsText" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="projectsText">
-                    Projects<hr>
-                </a>
-                
-                <div id="projectsText" class="collapse contentText" aria-labelledby="projectsTitle" data-parent="#siteContent">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <a class="modalCard" role="button" data-toggle="modal" href="#modalConcurso">
-                                <div class="card border-light mb-3">
-                                    <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Concurso Parque Águas Claras</h5>
-                                    <p class="card-text">
-                                        Proposta para o Concurso Nacional para os Parques Central e Sul de Águas Claras/DF.
-                                    </p>
-                                    </div>
-                                    <div class="card-footer">
-                                    <small class="text-muted">Março 2017</small>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="card border-light mb-3">
-                                <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
-                                <div class="card-body">
-                                <h5 class="card-title">Concurso Parque Águas Claras</h5>
-                                <p class="card-text">
-                                    Proposta para o Concurso Nacional para os Parques Central e Sul de Águas Claras/DF.
-                                </p>
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Março 2017</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="card border-light mb-3">
-                                <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
-                                <div class="card-body">
-                                <h5 class="card-title">Concurso Parque Águas Claras</h5>
-                                <p class="card-text">
-                                    Proposta para o Concurso Nacional para os Parques Central e Sul de Águas Claras/DF.
-                                </p>
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Março 2017</small>
-                                </div>
-                            </div> 
-                        </div>                       
-                        <div class="col-lg-4 col-md-6">
-                            <div class="card border-light mb-3">
-                                <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
-                                <div class="card-body">
-                                <h5 class="card-title">Concurso Parque Águas Claras</h5>
-                                <p class="card-text">
-                                    Proposta para o Concurso Nacional para os Parques Central e Sul de Águas Claras/DF.
-                                </p>
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Março 2017</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="card border-light mb-3">
-                                <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
-                                <div class="card-body">
-                                <h5 class="card-title">Concurso Parque Águas Claras</h5>
-                                <p class="card-text">
-                                    Proposta para o Concurso Nacional para os Parques Central e Sul de Águas Claras/DF.
-                                </p>
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Março 2017</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="card border-light mb-3">
-                                <img src="../images/arch/salp-concurso/01.jpg" class="card-img-top" alt="Concurso Sá Almeida">
-                                <div class="card-body">
-                                <h5 class="card-title">Concurso Parque Águas Claras</h5>
-                                <p class="card-text">
-                                    Proposta para o Concurso Nacional para os Parques Central e Sul de Águas Claras/DF.
-                                </p>
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Março 2017</small>
-                                </div>
-                            </div> 
-                        </div>                       
-                    </div>
-
-                    
-                </div>
-            </div>
-
-            <div id="contact">
-                <a class="contentTitle" href="#contactText" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="contactText">
-                    Contact<hr>
-                </a>
-                
-                <div id="contactText" class="collapse contentText" aria-labelledby="contactTitle" data-parent="#siteContent">
-                    <div>
-                        <ul>
-                            <li><a href="" alt="LinkedIn">My LinkedIn Profile</a></li>
-                            <li>diogosouzacarvalho@gmail.com</li>
-                            <li>Torino/TO - Italy</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> 
-        </div>
+    
+    <div class="container">
+        <p>SECTION UNDER CONSTRUCTION</p>
     </div>
 
-
-    
     <footer class="footer mt-auto py-3">
         <div class="container">
             <p class="text-center">&copy;2019 Diogo Carvalho</p>
         </div>
     </footer>
-    
-
-
-    <div class="modal fade" id="modalConcurso" tabindex="-1" role="dialog" aria-labelledby="modalConcursoLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="modalConcursoLabel">Concurso Parques Central e Sul de Águas Claras/DF</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img src="../images/arch/salp-concurso/01.jpg" class="img-fluid" alt="Concurso Sá Almeida">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-        crossorigin="anonymous">
-    </script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
-        crossorigin="anonymous">
-    </script> -->
-    <script 
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
-        crossorigin="anonymous">
-    </script>
+    <!-- SCRIPTS -->
+    <script src="../scripts/main.js"></script>
 </body>
 </html>
