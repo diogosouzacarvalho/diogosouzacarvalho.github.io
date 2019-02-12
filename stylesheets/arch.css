@@ -78,8 +78,14 @@ a.unused {
     color: rgb(185, 185, 185);
 }
 
-.contentTitle:hover {
+.content-title:hover {
+    color: rgb(17, 50, 104);
     text-decoration: none;
+}
+
+.content-title:hover hr{
+    color: rgb(17, 50, 104);
+    background-color: rgb(17, 50, 104);
 }
 
 .modalCard:hover {
